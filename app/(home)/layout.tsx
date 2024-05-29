@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const HomeLayout = ({
   children,
@@ -9,6 +10,7 @@ const HomeLayout = ({
     <div>
       <Navbar />
       {children}
+      <Footer />
     </div>
   );
 };
